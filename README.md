@@ -22,6 +22,7 @@ This project was developed for a university UAV course project focused on multir
 - `attitude_compdyn.m` — attitude kinematics helper
 - `plot_path_2d.m` — 2D trajectory visualization
 - `plot_path_3d.m` — 3D trajectory visualization
+- `Result/` — screenshots and trajectory plots
 
 ## How to Run
 1. Open this folder in MATLAB.
@@ -43,42 +44,42 @@ The script will:
 Example outputs from the simulation are shown below.
 
 ### Controller Structure
-![Controller](results/Controller.png)
+![Controller](Result/Controller.png)
 
 ### Simulink Model
-![Model](results/Model.png)
+![Model](Result/Model.png)
 
 ### 2D Path Tracking
-![2D Path](results/path_2D.png)
+![2D Path](Result/path_2D.png)
 
 ### 3D Path Tracking
-![3D Path](results/path_3D.png)
+![3D Path](Result/path_3D.png)
 
 ## Notes
 - This repository contains the project-specific simulation model and MATLAB scripts only.
 - Auto-generated or temporary files such as `.asv`, `.slxc`, and system files are not included.
 - If the variable `g` is missing in the Simulink model after clearing the workspace, define it again in MATLAB before running:
-  
+
 ```matlab
 g = 9.81;
 ```
 
 ## Repository Structure
 ```text
-quadrotor_simulation/
-├─ Quadrotor_Model.slx
-├─ project_launch.m
-├─ plan_path.m
-├─ compute_sim_in.m
-├─ attitude_compdyn.m
-├─ plot_path_2d.m
-├─ plot_path_3d.m
-├─ results/
+Quadrotor-Simulink-path-tracking/
+├─ Result/
 │  ├─ Controller.png
 │  ├─ Model.png
 │  ├─ path_2D.png
 │  └─ path_3D.png
-└─ README.md
+├─ Quadrotor_Model.slx
+├─ README.md
+├─ attitude_compdyn.m
+├─ compute_sim_in.m
+├─ plan_path.m
+├─ plot_path_2d.m
+├─ plot_path_3d.m
+└─ project_launch.m
 ```
 
 ## Future Improvements
