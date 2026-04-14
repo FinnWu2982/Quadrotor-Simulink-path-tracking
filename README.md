@@ -40,18 +40,19 @@ The script will:
 - display the 2D and 3D trajectory plots.
 
 ## Results
+Example outputs from the simulation are shown below.
 
 ### Controller Structure
-![Controller](Controller.png)
+![Controller](results/Controller.png)
 
 ### Simulink Model
-![Model](Model.png)
+![Model](results/Model.png)
 
 ### 2D Path Tracking
-![2D Path](path_2D.png)
+![2D Path](results/path_2D.png)
 
 ### 3D Path Tracking
-![3D Path](path_3D.png)
+![3D Path](results/path_3D.png)
 
 ## Notes
 - This repository contains the project-specific simulation model and MATLAB scripts only.
